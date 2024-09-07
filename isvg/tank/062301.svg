@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100mm"
+   height="100mm"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+   sodipodi:docname="062301.svg"
+   inkscape:export-xdpi="16.256001"
+   inkscape:export-ydpi="16.256001"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#000000"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showguides="true"
+     inkscape:zoom="2.2621875"
+     inkscape:cx="188.97638"
+     inkscape:cy="188.97638"
+     inkscape:window-width="1920"
+     inkscape:window-height="1022"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <sodipodi:guide
+       position="0,99.999999"
+       orientation="0,377.95276"
+       id="guide4"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="99.999999,99.999999"
+       orientation="377.95276,0"
+       id="guide5"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="99.999999,0"
+       orientation="0,-377.95276"
+       id="guide6"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="0,0"
+       orientation="-377.95276,0"
+       id="guide7"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="0,0"
+       orientation="0.70710678,-0.70710678"
+       id="guide8"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="0,99.999999"
+       orientation="0.70710678,0.70710678"
+       id="guide9"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="0,87.499999"
+       orientation="0,1"
+       id="guide10"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="0,12.5"
+       orientation="0,1"
+       id="guide11"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="12.5,99.999999"
+       orientation="-1,0"
+       id="guide12"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="87.499999,99.999999"
+       orientation="-1,0"
+       id="guide13"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter17"
+       x="-0.27999983"
+       y="-0.28018194"
+       width="1.5599997"
+       height="1.5603683">
+      <feFlood
+         result="flood"
+         in="SourceGraphic"
+         flood-opacity="0.75"
+         flood-color="rgb(0,153,255)"
+         id="feFlood16" />
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="7.500000"
+         id="feGaussianBlur16"
+         in="SourceGraphic" />
+      <feOffset
+         result="offset"
+         in="blur"
+         dx="0.000000"
+         dy="0.000000"
+         id="feOffset16" />
+      <feComposite
+         result="comp1"
+         operator="in"
+         in="flood"
+         in2="offset"
+         id="feComposite16" />
+      <feComposite
+         result="comp2"
+         operator="over"
+         in="SourceGraphic"
+         in2="comp1"
+         id="feComposite17" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       d="M 84.853527,81.632822 Q 84.454061,81.433087 83.55526,80.73402 l -0.09987,-0.199735 q -0.2996,-0.199735 -0.499335,-0.09987 l -1.198403,1.198403 q -0.399466,0.399466 -0.699066,0.04993 -0.299601,-0.349533 0,-0.749003 l 1.198402,-1.098533 -9.387486,-10.386153 -1.897469,1.997338 q -0.199735,0.09987 -0.449402,0.149799 -0.249664,0.04993 -0.449399,-0.149799 -0.199735,-0.199735 -0.149803,-0.449402 0.04994,-0.249668 0.149803,-0.349534 l 7.490013,-7.490011 -2.197069,-2.197071 -3.894807,3.894808 q -0.299601,0.299601 -1.298272,0.199731 -0.699066,0 -1.398133,-0.199731 -0.299601,-0.09987 -0.499336,0 l -0.199735,0.09987 -1.398134,1.398137 h -0.199734 q -0.199734,0 -0.399467,-0.199735 -0.199734,-0.199735 -0.09987,-0.599201 l 0.998668,-0.998667 -1.298269,-1.29827 q -0.399467,-1.298269 -0.349534,-2.746339 0.04993,-1.448069 0.549268,-2.846205 l -0.998669,-0.09987 Q 63.681757,57.165445 62.283622,56.466377 60.286285,55.367842 58.288948,53.570239 54.394141,49.975032 48.002663,43.683421 40.81225,36.592875 37.01731,32.348534 33.22237,28.104194 29.027963,23.010985 l -3.49534,-4.194408 -12.98269,-6.291611 6.291612,12.98269 4.194407,3.495339 q 5.093209,4.194408 9.33755,7.989348 4.244341,3.79494 11.334887,10.985352 Q 50,54.369174 53.595206,58.26398 q 2.496671,2.896139 3.595207,5.492677 0.499334,1.298267 0.499334,2.097203 1.398136,-0.499335 2.846205,-0.549268 1.448069,-0.04993 2.746338,0.349533 l 2.097204,2.097204 -0.399468,0.299601 -0.09987,0.199735 q -0.09987,0.199735 0,0.499335 0.199734,0.699065 0.199734,1.398132 0.09987,0.998671 -0.199734,1.298271 l -3.894806,3.894807 2.19707,2.19707 5.492676,-5.492676 10.985354,9.986684 0.798936,0.898801 q -0.09987,0.199735 0.09986,0.499336 l 0.199735,0.09986 q 0.699067,0.898802 0.898802,1.348201 0.199731,0.449402 0.199731,1.44807 v 0.898801 l 0.499336,0.199735 q 0.699066,0.09987 1.498002,0 1.498003,-0.199735 2.446737,-1.148469 0.948735,-0.948735 1.14847,-2.446737 0.09986,-0.798936 0,-1.498003 l -0.199727,-0.49933 H 86.35153 q -0.998667,0 -1.498003,-0.199731 z M 67.776297,36.892476 q 4.094542,-3.695073 9.187751,-7.889481 l 4.194407,-3.495339 6.291612,-12.98269 -12.982689,6.291611 -3.495341,4.194408 q -4.194408,5.093209 -7.989347,9.187749 -4.294275,4.893475 -12.283622,12.683089 l 4.394141,4.294274 q 7.789614,-7.88948 12.683088,-12.183754 z M 41.711052,53.570239 q -1.997337,1.797603 -3.994674,2.896138 -1.398136,0.699068 -2.596538,1.098535 l -0.998668,0.09987 q 0.499334,1.398136 0.549267,2.846205 0.04993,1.44807 -0.349534,2.746339 l -1.298269,1.29827 0.998669,0.998667 q 0.09987,0.399466 -0.09987,0.599201 -0.199734,0.199735 -0.399467,0.199735 h -0.199734 l -1.398136,-1.398137 -0.199733,-0.09987 q -0.199734,-0.09987 -0.499335,0 -0.699068,0.199731 -1.398135,0.199731 -0.998669,0.09987 -1.298269,-0.199731 l -3.894807,-3.894808 -2.197071,2.197071 7.490013,7.490011 q 0.09987,0.09987 0.149801,0.349534 0.04993,0.249667 -0.149801,0.449402 -0.199733,0.199732 -0.4494,0.149799 -0.249668,-0.04993 -0.449401,-0.149799 l -1.89747,-1.997338 q -8.588549,9.587217 -9.387484,10.386153 l 1.198402,1.098533 q 0.299601,0.39947 0.09987,0.649134 -0.199733,0.249668 -0.399467,0.199735 -0.199734,-0.04993 -0.399467,-0.149798 l -1.098536,-1.198403 q -0.2996,-0.09987 -0.499334,0.09987 l -0.199734,0.09987 q -0.898801,0.798936 -1.348202,0.998671 -0.449401,0.199731 -1.448069,0.199731 h -0.898802 l -0.199734,0.499335 q -0.09987,0.699067 0,1.498003 0.199734,1.498002 1.148469,2.446737 0.948735,0.948734 2.446738,1.148469 1.298269,0.09987 1.997337,-0.199735 v -0.898801 q 0,-0.998668 0.199733,-1.44807 0.199734,-0.449399 0.898802,-1.248335 l 0.199734,-0.299601 q 0.199734,-0.199731 0.09987,-0.499331 l 0.798935,-0.798936 11.08522,-9.986684 5.392809,5.492676 2.197071,-2.19707 -3.894807,-3.894807 q -0.2996,-0.2996 -0.199734,-1.298271 0,-0.699067 0.199734,-1.398132 0.09987,-0.2996 0,-0.499335 l -0.09987,-0.199735 -0.399468,-0.399467 2.097204,-1.997338 q 1.298268,-0.399466 2.746338,-0.349533 1.448069,0.04993 2.846205,0.549268 l 0.09987,-0.998667 q 0.399464,-1.19841 1.098532,-2.596546 1.098535,-1.997337 2.996005,-3.994674 L 49.300932,55.168108 44.707057,50.6741 q -1.597869,1.59787 -2.996005,2.896139 z"
+       id="path1"
+       style="fill:#ffffff;fill-opacity:1;stroke-width:6;font-variation-settings:normal;opacity:1;vector-effect:none;stroke:#0099ff;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:15;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke markers fill;filter:url(#filter17);stop-color:#000000;stop-opacity:1" />
+  </g>
+</svg>

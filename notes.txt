@@ -1,0 +1,61 @@
+Glowing job icon IDs are:
+
+x 062301: GLA
+x 062303: MRD
+x 062401: PLD
+x 062403: WAR
+x 062412: DRK
+x 062417: GNB
+
+x 062306: CNJ
+x 062406: WHM
+x 062409: SCH
+x 062413: AST
+x 062420: SGE
+
+x 062302: PGL
+x 062304: LNC
+x 062309: ROG
+x 062402: MNK
+x 062404: DRG
+x 062410: NIN
+x 062414: SAM
+x 062419: RPR
+x 062421: VPR
+
+x 062305: ARC
+x 062307: THM
+x 062308: ACN
+x 062405: BRD
+x 062407: BLM
+x 062408: SMN
+x 062411: MCH
+x 062415: RDM
+x 062416: BLU
+x 062418: DNC
+x 062422: PCT
+
+
+x 062310: CRP
+x 062311: BSM
+x 062312: ARM
+x 062313: GSM
+x 062314: LTW
+x 062315: WVR
+x 062316: ALC
+x 062317: CUL
+x 062318: MIN
+x 062319: BTN
+x 062320: FSH
+
+
+Lifted from https://github.com/nebel/xivPartyIcons/blob/main/PartyIcons/View/IconRegistrar.cs
+
+
+
+
+Role colors from PartyIcons:
+tank:   #0099ff
+heal:   #97dc60     -> adjusted to be darker: #6baf35
+ranged: #f08e37
+melee:  #ff7092
