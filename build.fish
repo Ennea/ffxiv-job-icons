@@ -6,6 +6,9 @@ if not set -q CONSOLE_TOOLS_CMD
 end
 
 
+# clean old build first
+git clean -Xdf
+
 # create build directory and cd into it
 if not test -d build
     mkdir build
@@ -39,4 +42,4 @@ rm *.png
 echo 'Making PMP'
 cp -r ../mod_template/* .
 mv *.tex ui/icon/062000
-zip -r role-colored-glowing-job-icons.pmp *
+zip -r role-colored-glowing-job-icons.pmp * > /dev/null
