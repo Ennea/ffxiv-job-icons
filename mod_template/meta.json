@@ -1,10 +1,10 @@
 {
   "FileVersion": 3,
-  "Name": "Role colored glowing job icons",
+  "Name": "Role-colored Glowing Job Icons",
   "Author": "Ennea",
   "Description": "Replaces the glowing job icons with ones featuring role colors. Intended to be used with the Party Icons plugin, but has the added benefit of also affecting the icons in the journal.",
   "Version": "1.0",
-  "Website": null,
+  "Website": "https://github.com/Ennea/ffxiv-job-icons",
   "Image": null,
   "ModTags": []
 }
