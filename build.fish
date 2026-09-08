@@ -1,7 +1,12 @@
 #!/usr/bin/fish
 
-if not set -q CONSOLE_TOOLS_CMD
-    echo "Environment variable CONSOLE_TOOLS_CMD must be set"
+if not set -q TEXCONV_CMD
+    echo "Environment variable TEXCONV_CMD must be set"
+    exit
+end
+
+if not set -q FFXIV_TEX_CONVERTER_PATH
+    echo "Environment variable FFXIV_TEX_CONVERTER_PATH must be set"
     exit
 end
 
@@ -25,21 +30,28 @@ for file in (find ../isvg/ -type f -regex '.*?/062.*svg')
 end
 echo
 
-# convert PNGs to TEX using TexTools' ConsoleTools
-set -l cmd (string split ' ' $CONSOLE_TOOLS_CMD)
-echo -n 'Making TEXs '
+# convert PNGs to DDS using texconv
+set -l texconv_cmd (string split ' ' $TEXCONV_CMD)
+echo -n 'Converting to DDS '
 for file in (ls *.png)
     echo -n .
     set -l out_name (string replace '.png' '' $file).tex
-    WINEDEBUG=-all $cmd '/wrap' $file $out_name ui/icon/062000/$out_name > /dev/null
+    WINEDEBUG=-all $texconv_cmd -f BGRA $file > /dev/null 2>&1
 end
 echo
 
 echo 'Removing PNGs'
 rm *.png
+cd ..
+
+# convert DDS to TEX using kartoffel's ffxiv-tex-converter
+echo -n 'Converting to TEX'
+source $FFXIV_TEX_CONVERTER_PATH/.venv/bin/activate.fish
+python $FFXIV_TEX_CONVERTER_PATH/ffxiv_tex_converter.py -c dds-to-tex -d build
 
 # create the PMP file
 echo 'Making PMP'
+cd build_tex
 cp -r ../mod_template/* .
 mv *.tex ui/icon/062000
 zip -r role-colored-glowing-job-icons.pmp * > /dev/null
