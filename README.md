@@ -1,4 +1,4 @@
-![All icons in this repository](all_icons.png)
+![A preview for the modded FFXIV job icons in this repo](preview.png)
 
 # Role-colored Glowing Job Icons
 
