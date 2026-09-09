@@ -6,7 +6,7 @@ A mod for Final Fantasy XIV. Exchanges the glowing job icons (used in the journa
 
 ## Building
 
-The build script in this repo is really only for myself (and written for the fish shell), but if you also want to use it, it should mostly be self-explanatory. Requires Inkscape to convert SVGs to PNGs, and TexTools to convert those to TEX files. `CONSOLE_TOOLS_CMD` should contain a command that launches TexTools' `ConsoleTools.exe`.
+The build script in this repo is really only for myself (and written for the fish shell), but if you also want to use it, it should mostly be self-explanatory. Requires Inkscape to convert SVGs to PNGs, Microsoft's/DirectX's `texconv.exe` to convert PNGs to DDSs, and https://github.com/kartoffels123/ffxiv-tex-converter to convert those to TEX files. `TEXCONV_CMD` should contain a command that launches `texconv.exe`, and `FFXIV_TEX_CONVERTER_PATH` should be set to the path to ffxiv-tex-converter. A virtual environment residing in `.venv` (with required dependencies installed) is expected for ffxiv-tex-converter.
 
 Make sure you only run `build.fish` from the repository root.
 
